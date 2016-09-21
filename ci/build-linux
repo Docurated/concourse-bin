@@ -2,8 +2,8 @@
 
 set -e -x
 
-export GOPATH=$PWD/gopath:$PWD/concourse:$PWD/garden-runc-release
-export PATH=$PWD/gopath/bin:$PWD/docurated/concourse-bin:$PWD/garden-runc-release:$PATH
+export GOPATH=$PWD/gopath:$PWD/docurated:$PWD/concourse:$PWD/docurated:$PWD/garden-runc-release
+export PATH=$PWD/gopath/bin:$PWD/docurated/concourse-bin:$PWD/concourse/bin:$PWD/garden-runc-release:$PATH
 
 FINAL_VERSION="$(cat $PWD/final-version/version)"
 
