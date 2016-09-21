@@ -3,7 +3,7 @@ resources:
 - name: concourse
   type: git
   source:
-    uri: https://github.com/concourse/concourse
+    uri: https://github.com/docurated/concourse
     branch: master
 
 - name: garden-runc-release
