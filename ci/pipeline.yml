@@ -15,7 +15,7 @@ resources:
 - name: bin
   type: git
   source:
-    uri: https://github.com/concourse/bin
+    uri: https://github.com/docurated/concourse-bin
     branch: master
 
 - name: houdini

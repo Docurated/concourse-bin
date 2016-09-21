@@ -12,7 +12,7 @@ import (
 	"github.com/tedsuo/ifrit/grouper"
 	"github.com/tedsuo/ifrit/sigmon"
 
-	"github.com/concourse/bin/bindata"
+	"github.com/docurated/concourse-bin/bindata"
 )
 
 type WebCommand struct {

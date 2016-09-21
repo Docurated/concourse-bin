@@ -36,7 +36,7 @@ templates:
       image_resource:
         type: docker-image
         source:
-          repository: concourse/bin-test-ec2-ci
+          repository: docurated/concourse-bin-test-ec2-ci
 
       inputs:
       - name: cloudformation-template
@@ -130,7 +130,7 @@ templates:
       image_resource:
         type: docker-image
         source:
-          repository: concourse/bin-test-ec2-ci
+          repository: docurated/concourse-bin-test-ec2-ci
 
       inputs:
       - name: instance
@@ -245,7 +245,7 @@ resources:
 - name: bin
   type: git
   source:
-    uri: https://github.com/concourse/bin.git
+    uri: https://github.com/docurated/concourse-bin.git
 
 - name: bin-rc
   type: github-release
@@ -257,7 +257,7 @@ resources:
 - name: cloudformation-template
   type: git
   source:
-    uri: https://github.com/concourse/bin.git
+    uri: https://github.com/docurated/concourse-bin.git
     paths: [ci/cloudformation/smoke-test.json]
 
 jobs:

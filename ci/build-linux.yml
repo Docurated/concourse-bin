@@ -7,7 +7,7 @@ image_resource:
 
 inputs:
 - name: bin
-  path: gopath/src/github.com/concourse/bin
+  path: gopath/src/github.com/docurated/concourse-bin
 - name: concourse
 - name: garden-runc-release
 - name: fly-rc
@@ -17,4 +17,4 @@ outputs:
 - name: binary
 
 run:
-  path: gopath/src/github.com/concourse/bin/ci/build-linux
+  path: gopath/src/github.com/docurated/concourse-bin/ci/build-linux

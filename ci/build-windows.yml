@@ -3,7 +3,7 @@ platform: windows
 
 inputs:
 - name: bin
-  path: gopath/src/github.com/concourse/bin
+  path: gopath/src/github.com/docurated/concourse-bin
 - name: concourse
 - name: houdini
   path: gopath/src/github.com/vito/houdini
@@ -14,4 +14,4 @@ outputs:
 - name: binary
 
 run:
-  path: gopath/src/github.com/concourse/bin/ci/build-windows
+  path: gopath/src/github.com/docurated/concourse-bin/ci/build-windows
