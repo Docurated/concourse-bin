@@ -4,13 +4,13 @@ resources:
   type: git
   source:
     uri: https://github.com/concourse/concourse
-    branch: develop
+    branch: master
 
 - name: garden-runc-release
   type: git
   source:
     uri: https://github.com/cloudfoundry/garden-runc-release
-    branch: develop
+    branch: master
 
 - name: bin
   type: git
@@ -35,9 +35,9 @@ resources:
 - name: bin-releases
   type: github-release
   source:
-    user: vito
-    repository: bin
-    access_token: {{release-token}}
+    user: Docurated
+    repository: concourse-bin
+    access_token: {{github_token}}
 
 jobs:
 - name: build
