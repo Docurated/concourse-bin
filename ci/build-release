@@ -12,4 +12,5 @@ You may want to look at [the concourse/concourse releases](https://github.com/co
 EOF
 
 mkdir release/artifacts
-cp linux-binary/* windows-binary/* darwin-binary/* release/artifacts
+#cp linux-binary/* windows-binary/* darwin-binary/* release/artifacts
+cp linux-binary/* release/artifacts
