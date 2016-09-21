@@ -8,7 +8,7 @@ import (
 	"golang.org/x/crypto/ssh"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/atc"
+	"github.com/docurated/atc"
 	"github.com/concourse/baggageclaim/baggageclaimcmd"
 	"github.com/tedsuo/ifrit"
 	"github.com/tedsuo/ifrit/grouper"

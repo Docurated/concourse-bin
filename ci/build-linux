@@ -19,6 +19,6 @@ go-bindata -nomemcopy -pkg bindata -o gopath/src/github.com/docurated/concourse-
 # must be build with 'daemon' flag because of docker packages :|
 go build \
   -tags daemon \
-  -ldflags "-X main.Version=${FINAL_VERSION} -X github.com/concourse/atc/atccmd.Version=${FINAL_VERSION}" \
+  -ldflags "-X main.Version=${FINAL_VERSION} -X github.com/docurated/atc/atccmd.Version=${FINAL_VERSION}" \
   -o binary/concourse_linux_amd64 \
   github.com/docurated/concourse-bin/cmd/concourse

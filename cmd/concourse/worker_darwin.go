@@ -2,7 +2,7 @@ package main
 
 import (
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/atc"
+	"github.com/docurated/atc"
 	"github.com/jessevdk/go-flags"
 	"github.com/tedsuo/ifrit"
 )

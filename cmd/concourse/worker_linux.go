@@ -12,7 +12,7 @@ import (
 
 	"code.cloudfoundry.org/guardian/guardiancmd"
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/atc"
+	"github.com/docurated/atc"
 	"github.com/concourse/baggageclaim/baggageclaimcmd"
 	"github.com/concourse/baggageclaim/fs"
 	"github.com/docurated/concourse-bin/bindata"

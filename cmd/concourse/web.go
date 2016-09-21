@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/concourse/atc/atccmd"
+	"github.com/docurated/atc/atccmd"
 	"github.com/concourse/tsa/tsacmd"
 	"github.com/tedsuo/ifrit"
 	"github.com/tedsuo/ifrit/grouper"

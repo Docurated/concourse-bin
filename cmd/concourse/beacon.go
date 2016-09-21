@@ -15,7 +15,7 @@ import (
 	"golang.org/x/crypto/ssh"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/atc"
+	"github.com/docurated/atc"
 )
 
 const gardenForwardAddr = "0.0.0.0:7777"

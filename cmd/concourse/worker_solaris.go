@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/concourse/atc"
+	"github.com/docurated/atc"
 	"github.com/jessevdk/go-flags"
 	"github.com/pivotal-golang/lager"
 	"github.com/tedsuo/ifrit"

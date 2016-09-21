@@ -3,7 +3,7 @@
 Builds a single `./concourse` binary capable of running each component of a
 Concourse cluster via the following subcommands:
 
-* `web` - runs the [ATC](https://github.com/concourse/atc), web UI and build
+* `web` - runs the [ATC](https://github.com/docurated/atc), web UI and build
   scheduler, alongside a [TSA](https://github.com/concourse/tsa), used to
   securely register workers
 * `worker` - runs a [Garden](https://github.com/cloudfoundry/garden) worker and
@@ -23,5 +23,4 @@ tasks under `ci/`.
 
 If you're looking to contribute to Concourse, you won't want to start here, as
 the feedback loop will be much slower. You should take a look at the
-[ATC](https://github.com/concourse/atc) instead.
-
+[ATC](https://github.com/docurated/atc) instead.
